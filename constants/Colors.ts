@@ -4,6 +4,8 @@ const tintColorDark = '#fff';
 export default {
   light: {
     text: '#000',
+    muted: 'rgba(0, 0, 0, 0.5)',
+    border: 'rgba(0, 0, 0, 0.25)',
     background: '#fff',
     tint: tintColorLight,
     tabIconDefault: '#ccc',
@@ -11,6 +13,8 @@ export default {
   },
   dark: {
     text: '#fff',
+    muted: 'rgba(255, 255, 255, 0.6)',
+    border: 'rgba(255, 255, 255, 0.25)',
     background: '#000',
     tint: tintColorDark,
     tabIconDefault: '#ccc',
