@@ -12,7 +12,7 @@ export default function EmptyView() {
         lightColor={Colors.light.muted}
         darkColor={Colors.dark.muted}
       >
-        わくわくしてきたね！
+        あれ、わくわくしてないの？
       </Text>
       <Text
         style={styles.body}

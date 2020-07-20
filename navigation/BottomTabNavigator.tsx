@@ -51,13 +51,13 @@ function TabBarIcon(props: { name: string; color: string }) {
 
 // Each tab has its own navigation stack, you can read more about this pattern here:
 // https://reactnavigation.org/docs/tab-based-navigation#a-stack-navigator-for-each-tab
-const TabOneStack = createStackNavigator<ListParamList>();
+const ListStack = createStackNavigator<ListParamList>();
 
 function ListNavigator() {
   return (
-    <TabOneStack.Navigator>
-      <TabOneStack.Screen name="ListScreen" component={ListScreen} />
-    </TabOneStack.Navigator>
+    <ListStack.Navigator>
+      <ListStack.Screen name="ListScreen" component={ListScreen} />
+    </ListStack.Navigator>
   );
 }
 
